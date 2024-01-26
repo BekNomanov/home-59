@@ -1,0 +1,80 @@
+.movie {
+  -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  max-width: 600px;
+  min-height: 400px;
+}
+
+.h4 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.box-input {
+  -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 4px;
+
+}
+
+.input {
+  width: 250px;
+  height: 25px;
+  border: none;
+}
+
+.addBtn {
+  cursor: pointer;
+  font-size: 17px;
+  padding: 8px 14px;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  margin-left: 38px;
+}
+
+.addBtn:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.hr {
+  border-top: 1px;
+  -webkit-box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.movie-item {
+  width: 450px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.addBtn:active {
+  transform: translate(0em, 0.2em);
+}
+
+.input-item {
+  width: 100%;
+  border: none;
+}
+
+.delete-btn {
+  padding: 10px 20px;
+  background-color: #f44336;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 6px;
+}
